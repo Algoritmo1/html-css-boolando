@@ -6,13 +6,10 @@
 
 .container{
     width: 100%;
-    background-color: blue;
 } 
 
 .row{
-    border: solid black 1px;
     width: 80%;
-    background-color: #d2691e;
     margin: 0 auto;
     text-align: center;
 }
@@ -26,8 +23,65 @@
     position: relative;
 }
 
+.prodotto{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.didascalia{
+    text-align: left;
+}
+
+.title-caption{
+    font-size: bold;
+}
+
+.cuoricino{
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    background-color: white;
+    font-size: 15px;
+    color: crimson;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: none; 
+    z-index: 3;
+}
+
+.prodotto:hover .cuoricino{
+    display: inline;
+}
+
+/* .prodotto:focus .cuoricino,
+.prodotto:active .cuoricino{
+    color: black; 
+} */
+
+.over-green{
+    background-color: green;
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    z-index: 3;
+}
+
+.discount{
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 3;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
 .card-1{    
     background-image: url("../img/1.webp");
+    z-index: 2;
 }
 
 .card-2{
@@ -49,3 +103,27 @@
 .card-6{
     background-image: url("../img/6.webp")
 } 
+
+.card-1:hover {
+   background-image: url("../img/1b.webp") ;
+}
+
+.card-2:hover{
+    background-image: url("../img/2b.webp")
+}
+
+.card-3:hover{
+    background-image: url("../img/3b.webp")
+}
+
+.card-4:hover{
+    background-image: url("../img/4b.webp")
+}
+
+.card-5:hover{
+    background-image: url("../img/5b.webp")
+}
+
+.card-6:hover{
+    background-image: url("../img/6b.webp")
+}
