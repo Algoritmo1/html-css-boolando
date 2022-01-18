@@ -2,4 +2,50 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+} 
+
+.container{
+    width: 100%;
+    background-color: blue;
+} 
+
+.row{
+    border: solid black 1px;
+    width: 80%;
+    background-color: #d2691e;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.card{
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    /* padding-left: 20px;   */
+    background-size: cover;
+    position: relative;
+}
+
+.card-1{    
+    background-image: url("../img/1.webp");
+}
+
+.card-2{
+    background-image: url("../img/2.webp")
+}
+
+.card-3{
+    background-image: url("../img/3.webp")
+}
+
+.card-4{
+    background-image: url("../img/4.webp")
+}
+
+.card-5{
+    background-image: url("../img/5.webp")
+}
+
+.card-6{
+    background-image: url("../img/6.webp")
+} 
